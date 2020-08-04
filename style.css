@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    padding: 35px;
+    background: rgb(20, 90, 148);
+    color: mintcream;
+  }
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+  }
+
+  .logo {
+      width: 120px;
+      height: 120px;
+      border-style: solid;
+      border-color: mintcream;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 30px;
+  }
+  
+  input[type="submit"]{
+    padding: 12px;
+    background: rgb(20, 90, 148);
+    border: none;
+    border-radius: 1px;
+    font-weight:bold;
+    font-size: 20px;
+    color: mintcream;
+  }
+  
+  .input input[type="text"]{
+    width: 300px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .card {
+    background: #e7e7e7;
+    height: 25vh;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .close {
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1 {
+    text-align: center;
+    background-color:rgb(20, 90, 148);
+    color: mintcream;
+  }
+  
+  .card p{
+    text-align: center;
+  }
+
+  .temp {
+      font-size: 50px;
+      padding: 0%;
+      font-weight: bold;
+  }
+
+  footer {
+      padding: 20px;
+      background: rgb(20, 90, 148);
+      color: mintcream;
+  }
+
+  .box {
+    font-weight: bold;
+    background-color: rgb(230, 171, 10);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:10px;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
