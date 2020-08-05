@@ -22,10 +22,11 @@
 **_Then_** the weather data will appear in KELVIN.
 
 ### Requirements
-* * Create a weather app using an API from: [Open Weather Map](https://openweathermap.org/guide#how)
-* Add styling to your app 
-* App must contain Javascript
-* Puesdo Code must be used to explain work
+* Create a weather app using an `API` from: [Open Weather Map](https://openweathermap.org/guide#how)
+* Using `CSS` add styling to your app
+* Request `userInput`for city name
+* Use `userInput` to collect data from `API`
+* `Puesdo Code` must be used to explain work
 * Create a `GitHub` repo for your server
 * Commit to `GitHub` at least five times 
 * Submit `.js`, `.css` and `.html` files to Google classroom
