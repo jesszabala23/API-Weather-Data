@@ -13,7 +13,7 @@ var button= document.querySelector('.submit');
 // On click grab client input and populate weather information.
 // Catch error if client input is blank
 button.addEventListener('click', function(name){
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+ input.value +'&appid=84e036245b91790ad96fdb43d4e28993')
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+ input.value +'&units=imperial&appid=84e036245b91790ad96fdb43d4e28993')
 .then(response => response.json())
 .then(data => {
   var nameValue = data['name'];
@@ -38,6 +38,18 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+ input.value +'&appid
 
 .catch(err => alert("Oops! You forgot to type in a city."));
 })
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Assign variable for weather icon
 var icon = document.querySelector('.icon');
