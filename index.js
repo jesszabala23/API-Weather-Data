@@ -113,10 +113,12 @@ buttonKel.addEventListener('click', function(name){
 // Assign variable for weather icon
 var icon = document.querySelector('.icon');
 
-fetch('http://openweathermap.org/img/w/'+ icon )
+buttonKel.addEventListener('click', function(name){
+fetch('http://openweathermap.org/img/w/'+ icon + '.png')
 .then(response => response.json())
-.then(data => {
-  var iconValue = data['main'][0]['icon'];
+.then(img => {
+  var iconValue = img['main'][0]['icon'];
 
   icon.innerHTML = iconValue;
+})
 })
