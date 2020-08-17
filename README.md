@@ -1,5 +1,7 @@
 # **API Skill Challenge** 
 
+![World Weather App Example](https://media.giphy.com/media/ZdsDTajoAt7zS5J8wF/giphy.gif)
+
 ### Description
      Using an API form create a user friendly app that displays current weather data after user inputs a city name.
 
